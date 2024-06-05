@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+
+.container {
+  background-color: rgb(170, 255, 229);
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+  font-family: "Mukta", sans-serif;
+  width: 400px;
+  height: 396px;
+}
+
+h1 {
+  font-weight: 800;
+  text-align: center;
+}
+
+#quizBoard {
+  padding: 12px;
+  background-color: rgb(228, 84, 84);
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  height: 256px;
+}
+
+#questionNo {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+#question {
+  font-weight: 500;
+}
+
+#result {
+  padding: 12px;
+  background-color: rgb(228, 84, 84);
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-weight: 700;
+}
+
+input {
+  cursor: pointer;
+  margin: 2px 6px;
+}
+
+#submitBtn,
+#playBtn {
+  margin-left: 25%;
+  font-family: "Mukta", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  background-color: aqua;
+  padding: 2px 12px;
+  width: 50%;
+  height: 32px;
+  border-radius: 16px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+#submitBtn:hover,
+#playBtn:hover {
+  background-color: rgb(42, 224, 224);
+}
